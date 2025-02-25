@@ -104,7 +104,7 @@
 }
 
 .hero-header {
-    background: url(../img/hero.webp) top right no-repeat;
+    background: url(../img/hero.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -256,4 +256,9 @@
 .testimonial-carousel .owl-item img {
     width: 150px;
     height: 150px;
+}
+
+
+.meet-dr{
+    height: 100vh;
 }
