@@ -100,11 +100,15 @@
     .navbar-brand img{
         height: 80px;
     }
+
+    .hero-text-1{
+        font-size: 28px;
+    }
     
 }
 
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background: url(../img/hero-4.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -116,12 +120,14 @@
 
 .service-item {
     position: relative;
-    height: 350px;
+    min-height: 350px;
+    /* height: 350px; */
     padding: 0 30px;
     transition: .5s;
 }
 
 .service-item .service-icon {
+    margin-top: 20px;
     width: 150px;
     height: 100px;
     display: flex;
@@ -261,4 +267,10 @@
 
 .meet-dr{
     height: 100vh;
+}
+@media (min-width: 991.98px) {
+    
+    .advantage-item{
+        min-height: 300px;
+    }
 }
