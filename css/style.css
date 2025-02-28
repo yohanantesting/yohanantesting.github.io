@@ -274,3 +274,17 @@
         min-height: 300px;
     }
 }
+
+@media (min-width: 991.98px) {
+    .dpc{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .dpc{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
