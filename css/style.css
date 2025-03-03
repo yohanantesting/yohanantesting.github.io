@@ -288,3 +288,8 @@
         margin-bottom: 20px;
     }
 }
+
+.immi-faq {
+    background: url(../img/immi-img.webp) top right no-repeat;
+    background-size: cover;
+}
