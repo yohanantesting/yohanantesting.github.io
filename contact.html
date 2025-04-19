@@ -33,7 +33,7 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+    <div class="container-fluid sticky-top bg-white py-2 border-bottom d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
@@ -67,7 +67,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top bg-white shadow-sm">
+    <div class="container-fluid sticky-topbar bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand">
@@ -80,7 +80,18 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="services/medical-weight-mgt.html" class="dropdown-item">Medical Weight Management</a>
+                                <a href="services/lifestyle-medicine.html" class="dropdown-item">Lifestyle Medicine</a>
+                                <a href="services/immigration-exam.html" class="dropdown-item">Immigration Medical Exam</a>
+                                <a href="services/chronic-disease-care.html" class="dropdown-item">Chronic Disease Care</a>
+                                <a href="services/preventive-care.html" class="dropdown-item">Preventive Care</a>
+                                <a href="services/medical-ear-piercing.html" class="dropdown-item">Medical Ear Piercing</a>
+                                <a href="service.html" class="dropdown-item">More Services</a>
+                            </div>
+                        </div>
                         <a href="blog.html" class="nav-item nav-link">Blogs</a>
                         <a href="patient-portal.html" class="nav-item nav-link">Patient Portal</a>
                         <a href="#" class="nav-item nav-link active">Contact</a>
@@ -98,6 +109,37 @@
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Got Any Questions?</h5>
                 <h1 class="display-4">Do Not Hesistate To Contact Us</h1>
+            </div>
+            <div class="row justify-content-center position-relative">
+                <div class="col-lg-6">
+                    <div class="bg-white rounded mb-0">
+                        <img src="img/hero.jpg" loading="lazy" alt="Dr. Nana In A Family Consultation" class="img-fluid mb-4">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-white rounded mb-0">
+                        <h2 class="text-center py-4">Send Us A Message</h2>
+                        <form class="contact-form">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <input type="tel" class="form-control bg-light border-0" placeholder="Phone" style="height: 55px;">
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control bg-light border-0" rows="5" placeholder="Message"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3 mb-4" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
             <div class="row g-5 mb-5">
                 <div class="col-lg-3">
@@ -144,37 +186,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center position-relative">
-                <div class="col-lg-6">
-                    <div class="bg-white rounded mb-0">
-                        <img src="img/hero.jpg" loading="lazy" alt="Dr. Nana In A Family Consultation" class="img-fluid mb-4">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="bg-white rounded mb-0">
-                        <h2 class="text-center py-4">Send Us A Message</h2>
-                        <form class="contact-form">
-                            <div class="row g-3">
-                                <div class="col-12 col-sm-6">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12 col-sm-6">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="tel" class="form-control bg-light border-0" placeholder="Phone" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="5" placeholder="Message"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3 mb-4" type="submit">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
     <!-- Contact End -->
@@ -185,7 +197,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Take The First Step Toward Better Health</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">Take The First Step Toward Better Health</h4>
                     <p class="mb-4">
                         If you're ready to embrace a healthier lifestyle, I'm here to guide you every step of the way. 
                         Together, we can create a personalized plan to help you achieve your health goals and transform your life. 
@@ -203,7 +215,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Info</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">Quick Info</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>7447 Egan Drive, Suite 207, <br> &ensp; &ensp;&ensp;Savage, MN 55378</p>
                         <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@arisewellnessmed.com</p>
@@ -214,7 +226,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">Popular Links</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-light mb-2" href="direct-primary-care.html"><i class="fa fa-angle-right me-2"></i>Direct Primary Care</a>
                         <a class="text-light mb-2" href="health-insurance.html"><i class="fa fa-angle-right me-2"></i>Health Insurance</a>
@@ -230,7 +242,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+    <div class="container-fluid bg-dark text-light border-top py-4">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">

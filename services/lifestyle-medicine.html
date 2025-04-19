@@ -33,7 +33,7 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+    <div class="container-fluid sticky-top bg-white py-2 border-bottom d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
@@ -67,7 +67,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top bg-white shadow-sm">
+    <div class="container-fluid sticky-topbar bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
                 <a href="../index.html" class="navbar-brand">
@@ -80,7 +80,18 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="../index.html" class="nav-item nav-link">Home</a>
                         <a href="../about.html" class="nav-item nav-link">About</a>
-                        <a href="../service.html" class="nav-item nav-link">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="../services/medical-weight-mgt.html" class="dropdown-item">Medical Weight Management</a>
+                                <a href="../services/lifestyle-medicine.html" class="dropdown-item">Lifestyle Medicine</a>
+                                <a href="../services/immigration-exam.html" class="dropdown-item">Immigration Medical Exam</a>
+                                <a href="../services/chronic-disease-care.html" class="dropdown-item">Chronic Disease Care</a>
+                                <a href="../services/preventive-care.html" class="dropdown-item">Preventive Care</a>
+                                <a href="../services/medical-ear-piercing.html" class="dropdown-item">Medical Ear Piercing</a>
+                                <a href="../service.html" class="dropdown-item">More Services</a>
+                            </div>
+                        </div>
                         <a href="../blog.html" class="nav-item nav-link">Blogs</a>
                         <a href="../patient-portal.html" class="nav-item nav-link">Patient Portal</a>
                         <a href="../contact.html" class="nav-item nav-link">Contact</a>
@@ -103,16 +114,25 @@
                 </p>
             </div>
             <div class="row g-5 bg-primary p-3">
-                <div class="col-lg-6 text-center">
-                    <h2 class="mb-4">The Power of Lifestyle Change</h2>
+                <div class="col-lg-6">
+                    <h2 class="mb-4">A Healthier You Starts Here</h2>
                     <p class="lead text-white">
-                        Lifestyle Medicine is a branch of evidence-based medicine that focuses on using lifestyle changes 
-                        to prevent, treat, and even reverse chronic diseases. By addressing root causes such as poor nutrition, 
-                        physical inactivity, chronic stress, and inadequate sleep, Lifestyle Medicine empowers individuals 
-                        to take control of their health and improve their quality of life. This approach integrates healthy 
-                        behaviors, personalized guidance, and scientific research to achieve sustainable and long-lasting 
-                        health outcomes.
+                        Lifestyle Medicine is a science-backed approach to improving your health by focusing on the root causes 
+                        of chronic conditions — your daily habits. Rather than just treating symptoms, we help you make sustainable 
+                        changes in nutrition, physical activity, sleep, stress management, and overall well-being to support long-term 
+                        health.
                     </p>
+                    <p class="lead text-white">
+                        Dr. Nana Wilmot-DeSouza is board certified in Lifestyle Medicine and will personally guide you with 
+                        individualized strategies to:
+                    </p>
+                    <ul class="lead text-white">
+                        <li>Achieve and maintain a healthy weight</li>
+                        <li>Improve energy levels and sleep quality</li>
+                        <li>Reduce the need for certain medications</li>
+                        <li>Prevent or manage conditions like diabetes, high blood pressure, and heart disease</li>
+                        <li>Build lasting habits for a healthier, happier life</li>
+                    </ul>
                     <a class="btn btn-dark rounded-pill py-3 px-5 me-3 mb-3" href="https://arisewellnessmed.hint.com/booking?appointment-type=appty-7e90391668f03513" target="_blank">
                         Patient Appointment
                     </a>
@@ -122,6 +142,13 @@
                 </div>
                 <div class="col-lg-6">
                     <img class="img-fluid" src="../img/services/lifestyle-medicine.webp" loading="lazy" alt="Lifestyle Medicine">
+                    <p class="lead text-white mt-3">
+                        Whether you're looking to lose weight, improve your health, or prevent chronic disease, Lifestyle Medicine 
+                        offers a practical, proven path to lasting wellness—no fad diets, just real solutions tailored to you.
+                    </p>
+                    <p class="lead text-white">
+                        Take the first step today! Schedule your consultation and start your journey to better health.
+                    </p>
                 </div>
             </div>
             <div class="row g-5 my-5">
@@ -192,7 +219,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Take The First Step Toward Better Health</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Take The First Step Toward Better Health</h4>
                     <p class="mb-4">
                         If you're ready to embrace a healthier lifestyle, I'm here to guide you every step of the way. 
                         Together, we can create a personalized plan to help you achieve your health goals and transform your life. 
@@ -210,7 +237,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Info</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Quick Info</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>7447 Egan Drive, Suite 207, <br> &ensp; &ensp;&ensp;Savage, MN 55378</p>
                         <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@arisewellnessmed.com</p>
@@ -221,7 +248,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Popular Links</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-light mb-2" href="../direct-primary-care.html"><i class="fa fa-angle-right me-2"></i>Direct Primary Care</a>
                         <a class="text-light mb-2" href="../health-insurance.html"><i class="fa fa-angle-right me-2"></i>Health Insurance</a>
@@ -237,7 +264,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+    <div class="container-fluid bg-dark text-light border-top  py-4">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">

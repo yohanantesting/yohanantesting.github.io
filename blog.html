@@ -33,7 +33,7 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+    <div class="container-fluid sticky-top bg-white py-2 border-bottom d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
@@ -67,7 +67,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top bg-white shadow-sm">
+    <div class="container-fluid sticky-topbar bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand">
@@ -80,7 +80,18 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="service.html" class="nav-item nav-link">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="services/medical-weight-mgt.html" class="dropdown-item">Medical Weight Management</a>
+                                <a href="services/lifestyle-medicine.html" class="dropdown-item">Lifestyle Medicine</a>
+                                <a href="services/immigration-exam.html" class="dropdown-item">Immigration Medical Exam</a>
+                                <a href="services/chronic-disease-care.html" class="dropdown-item">Chronic Disease Care</a>
+                                <a href="services/preventive-care.html" class="dropdown-item">Preventive Care</a>
+                                <a href="services/medical-ear-piercing.html" class="dropdown-item">Medical Ear Piercing</a>
+                                <a href="service.html" class="dropdown-item">More Services</a>
+                            </div>
+                        </div>
                         <a href="blog.html" class="nav-item nav-link active">Blogs</a>
                         <a href="patient-portal.html" class="nav-item nav-link">Patient Portal</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -161,7 +172,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Take The First Step Toward Better Health</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Take The First Step Toward Better Health</h4>
                     <p class="mb-4">
                         If you're ready to embrace a healthier lifestyle, I'm here to guide you every step of the way. 
                         Together, we can create a personalized plan to help you achieve your health goals and transform your life. 
@@ -179,7 +190,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Info</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Quick Info</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>7447 Egan Drive, Suite 207, <br> &ensp; &ensp;&ensp;Savage, MN 55378</p>
                         <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@arisewellnessmed.com</p>
@@ -190,7 +201,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Popular Links</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-light mb-2" href="direct-primary-care.html"><i class="fa fa-angle-right me-2"></i>Direct Primary Care</a>
                         <a class="text-light mb-2" href="health-insurance.html"><i class="fa fa-angle-right me-2"></i>Health Insurance</a>
@@ -206,7 +217,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+    <div class="container-fluid bg-dark text-light border-top  py-4">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">

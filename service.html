@@ -33,7 +33,7 @@
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid py-2 border-bottom d-none d-lg-block">
+    <div class="container-fluid sticky-top bg-white py-2 border-bottom d-none d-lg-block">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
@@ -67,7 +67,7 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-top bg-white shadow-sm">
+    <div class="container-fluid sticky-topbar bg-white shadow-sm">
         <div class="container">
             <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand">
@@ -80,7 +80,18 @@
                     <div class="navbar-nav ms-auto py-0">
                         <a href="index.html" class="nav-item nav-link">Home</a>
                         <a href="about.html" class="nav-item nav-link">About</a>
-                        <a href="#" class="nav-item nav-link active">Services</a>
+                        <div class="nav-item dropdown">
+                            <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="services/medical-weight-mgt.html" class="dropdown-item">Medical Weight Management</a>
+                                <a href="services/lifestyle-medicine.html" class="dropdown-item">Lifestyle Medicine</a>
+                                <a href="services/immigration-exam.html" class="dropdown-item">Immigration Medical Exam</a>
+                                <a href="services/chronic-disease-care.html" class="dropdown-item">Chronic Disease Care</a>
+                                <a href="services/preventive-care.html" class="dropdown-item">Preventive Care</a>
+                                <a href="services/medical-ear-piercing.html" class="dropdown-item">Medical Ear Piercing</a>
+                                <a href="service.html" class="dropdown-item">More Services</a>
+                            </div>
+                        </div>
                         <a href="blog.html" class="nav-item nav-link">Blogs</a>
                         <a href="patient-portal.html" class="nav-item nav-link">Patient Portal</a>
                         <a href="contact.html" class="nav-item nav-link">Contact</a>
@@ -216,7 +227,7 @@
             </div>
             <h4 class="text-center my-5">More Services</h4>
             <div class="row g-5">
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-lungs text-white"></i>
@@ -224,7 +235,7 @@
                         <h4 class="mb-3">Asthma Management</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-pills text-white"></i>
@@ -232,7 +243,7 @@
                         <h4 class="mb-3">Acute Care</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-female text-white"></i>
@@ -240,7 +251,7 @@
                         <h4 class="mb-3">Women's & Men's Health</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-procedures text-white"></i>
@@ -248,7 +259,7 @@
                         <h4 class="mb-3">Minor Procedures</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-walking text-white"></i>
@@ -256,7 +267,7 @@
                         <h4 class="mb-3">Telemedicine</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-medkit text-white"></i>
@@ -264,7 +275,7 @@
                         <h4 class="mb-3">Erectyle Dysfunction(ED) Management</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-smoking-ban text-white"></i>
@@ -272,7 +283,7 @@
                         <h4 class="mb-3">Smoking Cessation Management</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-baby text-white"></i>
@@ -280,7 +291,7 @@
                         <h4 class="mb-3">Birth Control</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-smile-wink text-white"></i>
@@ -288,7 +299,7 @@
                         <h4 class="mb-3">Anxiety & Depression Management</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-plane text-white"></i>
@@ -296,7 +307,7 @@
                         <h4 class="mb-3">Travel Clinic</h4>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
+                <div class="col-lg-3 col-md-6">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon mb-4">
                             <i class="fa fa-2x fa-running text-white"></i>
@@ -315,44 +326,13 @@
             <div class="text-center mx-auto mb-5" style="max-width: 500px;">
                 <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Advantage</h5>
             </div>
-            <div class="row g-5 mb-5 advantage">
-                <div class="col-lg-3">
-                    <div class="bg-white advantage-item rounded d-flex flex-column align-items-center justify-content-center text-center" style="height: 200px;">
-                        <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 100px; height: 70px; transform: rotate(-15deg);">
-                            <i class="fa fa-2x fa-location-arrow text-white" style="transform: rotate(15deg);"></i>
-                        </div>
-                        <h6 class="mb-0 lead"><span class="text-primary">Instant Appointments</span>: <br>
-                            Minimal Waits - Your Time Matters!</h6>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="bg-white advantage-item rounded d-flex flex-column align-items-center justify-content-center text-center" style="height: 200px;">
-                        <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 100px; height: 70px; transform: rotate(-15deg);">
-                            <i class="fa fa-2x fa-phone text-white" style="transform: rotate(15deg);"></i>
-                        </div>
-                        <h6 class="mb-0 lead"><span class="text-primary">Simplify your healthcare costs with us</span>: 
-                            <br>Clear pricing, no surprises - all in one flat monthly fee(Membership Only).</h6>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="bg-white advantage-item rounded d-flex flex-column align-items-center justify-content-center text-center" style="height: 200px;">
-                        <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 100px; height: 70px; transform: rotate(-15deg);">
-                            <i class="fa fa-2x fa-envelope-open text-white" style="transform: rotate(15deg);"></i>
-                        </div>
-                        <h6 class="mb-0 lead"><span class="text-primary">Reimagine your healthcare experience</span>: 
-                            <br>more time, trust, and well-being at Arise Medical & Wellness.</h6>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="bg-white advantage-item rounded d-flex flex-column align-items-center justify-content-center text-center" style="height: 200px;">
-                        <div class="d-flex align-items-center justify-content-center bg-primary rounded-circle mb-4" style="width: 100px; height: 70px; transform: rotate(-15deg);">
-                            <i class="fa fa-2x fa-location-arrow text-white" style="transform: rotate(15deg);"></i>
-                        </div>
-                        <h6 class="mb-0 lead"><span class="text-primary">Effortless healthcare access</span>: 
-                            <br>Connect with your physicians via the portal, 
-                            text, calls, video chats, or email - your health, your way!</h6>
-                    </div>
-                </div>
+            <div class="colum g-5 mb-5 advantage">
+                <ul style="font-size: larger;">
+                    <li><span style="font-weight: 900;">Instant Appointments:</span> Minimal Waits - Your Time Matters!</li>
+                    <li><span style="font-weight: 900;">Simplify your healthcare costs with us:</span> Clear pricing, no surprises - all in one flat monthly fee(Membership Only).</li>
+                    <li><span style="font-weight: 900;">Reimagine your healthcare experience:</span> More time, trust, and well-being at Arise Medical & Wellness.</li>
+                    <li><span style="font-weight: 900;">Effortless healthcare access:</span> Connect with your physicians via the portal, text, calls, video chats, or email - your health, your way!</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -364,7 +344,7 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Take The First Step Toward Better Health</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Take The First Step Toward Better Health</h4>
                     <p class="mb-4">
                         If you're ready to embrace a healthier lifestyle, I'm here to guide you every step of the way. 
                         Together, we can create a personalized plan to help you achieve your health goals and transform your life. 
@@ -382,7 +362,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Quick Info</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Quick Info</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>7447 Egan Drive, Suite 207, <br> &ensp; &ensp;&ensp;Savage, MN 55378</p>
                         <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@arisewellnessmed.com</p>
@@ -393,7 +373,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 border-secondary mb-4">Popular Links</h4>
+                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5  mb-4">Popular Links</h4>
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-light mb-2" href="direct-primary-care.html"><i class="fa fa-angle-right me-2"></i>Direct Primary Care</a>
                         <a class="text-light mb-2" href="health-insurance.html"><i class="fa fa-angle-right me-2"></i>Health Insurance</a>
@@ -409,7 +389,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid bg-dark text-light border-top border-secondary py-4">
+    <div class="container-fluid bg-dark text-light border-top  py-4">
         <div class="container">
             <div class="row g-5">
                 <div class="col-md-6 text-center text-md-start">

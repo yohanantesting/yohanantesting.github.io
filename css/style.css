@@ -112,7 +112,7 @@ body{
 }
 
 .hero-header {
-    background: url(../img/hero-4.jpg) top right no-repeat;
+    background: url(../img/new-hero.jpg) top right no-repeat;
     background-size: cover;
 }
 
@@ -296,4 +296,10 @@ body{
 .immi-faq {
     background: url(../img/immi-img.webp) top right no-repeat;
     background-size: cover;
+}
+
+.sticky-topbar{
+    position: sticky;
+    top: 40px;
+    z-index: 1020
 }
