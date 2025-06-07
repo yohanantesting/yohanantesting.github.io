@@ -3,26 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Home - Arise Medical & Wellness</title>
+    <title>Winnie Haizel Ministries International Inc. - A Global Prayer Ministry</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="Free HTML Templates" name="keywords">
-    <meta content="Free HTML Templates" name="description">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="img/logo/favicon.ico" rel="icon">
+    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">  
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"> 
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,33 +32,38 @@
 </head>
 
 <body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+
     <!-- Topbar Start -->
-    <div class="container-fluid sticky-top bg-white py-2 border-bottom d-none d-lg-block">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-decoration-none text-body pe-3" href="tel:9525226344">
-                            <i class="bi bi-telephone me-2"></i>952-522-6344
-                        </a>
-                        <span class="text-body">|</span>
-                        <a class="text-decoration-none text-body px-3" href="mailto:info@arisewellnessmed.com">
-                            <i class="bi bi-envelope me-2"></i>info@arisewellnessmed.com
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6 text-center text-lg-end">
-                    <div class="d-inline-flex align-items-center">
-                        <a class="text-body px-2" href="https://www.facebook.com/Arisewellnessmed" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="text-body px-2" href="https://www.instagram.com/arisewellnessmed/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                        <a class="text-body px-2" href="https://youtube.com/@arisewellnessmed?si=LcaxQCoWNeEd6DZU" target="_blank">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </div>
+    <div class="container-fluid top-bar bg-dark text-light px-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="row gx-0 align-items-center d-none d-lg-flex">
+            <div class="col-lg-6 px-5 text-start">
+                
+            </div>
+            <div class="col-lg-6 px-5 text-end">
+                <small>Follow us:</small>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn-lg-square text-primary border-end rounded-0" target="_blank"
+                        href="https://www.facebook.com/share/1Ab8wjDgZU/?mibextid=wwXIfr">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" target="_blank"
+                        href="https://www.instagram.com/winnie_haizel_ministries?igsh=dmNxODdsajcyeGUy">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn-lg-square text-primary border-end rounded-0" target="_blank"
+                        href="https://www.youtube.com/@winniehaizelministry4403">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn-lg-square text-primary pe-0" target="_blank"
+                        href="https://www.tiktok.com/@winniehaizelminis?_t=ZT-8wCdFa5FB9v&_r=1">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -67,113 +72,119 @@
 
 
     <!-- Navbar Start -->
-    <div class="container-fluid sticky-topbar bg-white shadow-sm">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0">
-                <a href="index.html" class="navbar-brand">
-                     <img src="img/logo/logo.png" height="100px" alt="">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="about.html" class="nav-item nav-link">About</a>
-                        <div class="nav-item dropdown">
-                            <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                            <div class="dropdown-menu m-0">
-                                <a href="services/medical-weight-mgt.html" class="dropdown-item">Medical Weight Management</a>
-                                <a href="services/lifestyle-medicine.html" class="dropdown-item">Lifestyle Medicine</a>
-                                <a href="services/immigration-exam.html" class="dropdown-item">Immigration Medical Exam</a>
-                                <a href="services/chronic-disease-care.html" class="dropdown-item">Chronic Disease Care</a>
-                                <a href="services/preventive-care.html" class="dropdown-item">Preventive Care</a>
-                                <a href="services/medical-ear-piercing.html" class="dropdown-item">Medical Ear Piercing</a>
-                                <a href="service.html" class="dropdown-item">More Services</a>
-                            </div>
-                        </div>
-                        <a href="blog.html" class="nav-item nav-link">Blogs</a>
-                        <a href="patient-portal.html" class="nav-item nav-link">Patient Portal</a>
-                        <a href="contact.html" class="nav-item nav-link">Contact</a>
-                    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+            <!-- <h1 class="text-primary m-0 index-text">Winnie Haizel Ministries</h1> -->
+             <img src="img/whm-logo-white-bg.png" alt="logo" height="150">
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav mx-auto p-4 p-lg-0">
+                <a href="#" class="nav-item nav-link active">Home</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <a href="activities.html" class="nav-item nav-link">Activities</a>
+                <a href="watch.html" class="nav-item nav-link">Watch</a>
+                <a href="give.html" class="nav-item nav-link">Give</a>
+                <a href="contact.html" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class=" d-none d-lg-flex">
+                <div class="flex-shrink-0 btn-lg-square border border-light rounded-circle">
+                    <i class="fa fa-phone text-primary"></i>
                 </div>
-            </nav>
+                <div class="ps-3">
+                    <small class="text-primary mb-0">Call Us</small>
+                    <p class="text-light fs-5 mb-0">+1 240-703-0383</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </nav>
     <!-- Navbar End -->
 
 
-    <!-- Hero Start -->
-    <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-        <div class="container py-5">
-            <div class="row justify-content-start">
-                <div class="col-lg-8 text-center text-lg-start">
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="owl-carousel header-carousel position-relative">
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/hero.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Winnie Haizel Ministries</h1>
+                                <p class="text-light fs-5 mb-4 pb-3">
+                                    A Global Prayer Ministry.
+                                </p>
+                                <a href="about.html" class="btn btn-primary rounded-pill py-3 px-5">About Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="owl-carousel-item position-relative">
+                <img class="img-fluid" src="img/hero-2.jpg" alt="">
+                <div class="owl-carousel-inner">
+                    <div class="container">
+                        <div class="row justify-content-start">
+                            <div class="col-lg-8">
+                                <h1 class="display-1 text-light mb-4 animated slideInDown">Winnie Haizel Ministries</h1>
+                                <p class="text-light fs-5 mb-4 pb-3">
+                                    Transforming lives through intercession, the undiluted Word of God, and Spirit-empowered testimonies.
+                                </p>
+                                <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-5">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Hero End -->
+    <!-- Carousel End -->
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5">
+    <div class="container-xxl py-6">
         <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/about.webp" loading="lazy"
-                        alt="Tree WIth Arise Inscription" style="object-fit: contain;">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/event-1.jpg" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/event-2.jpg" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-7">
-                    <div class="mb-4">
-                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Arise</h5>
-                        <h1 class="display-4">"To deliver affordable and accessible patient-centered care, 
-                            inspiring you to live well - mind, body, and soul."</h1>
-                    </div>
-                    <p class="lead">
-                        At Arise, our brand story is rooted in a powerful message of renewal and vigilance. 
-                        The Hebrew word for almond, "shaked", literally translates to "watch" 
-                        and it serves as our guiding light. Like the almond tree's blossoms, which are the 
-                        first to emerge at the end of winter, we believe in the power of new beginnings and...
-                    </p>
-                    <div class="align-items-center text-center mb-3">
-                        <a href="about.html" class="btn btn-primary rounded-pill py-3 px-5">More About Us</a>
-                    </div>
-                    
-                    <div class="row g-3 pt-3">
-                        <div class="col-sm-3 col-6">
-                            <a href="about.html">
-                                <div class="bg-light text-center rounded-circle py-4">
-                                    <i class="fa fa-3x fa-user-md text-primary mb-3"></i>
-                                    <h6 class="mb-0">Qualified<small class="d-block text-primary">Personnel</small></h6>
-                                </div>
-                            </a>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p class="text-primary text-uppercase mb-2">About Us</p>
+                        <h1 class="display-6 mb-4">Winnie Haizel Ministries</h1>
+                        <p>
+                            Winnie Haizel Ministries International Inc. is a Spirit-led global prayer 
+                            ministry dedicated to transforming lives
+                        </p>
+                        <p>
+                            Founded by Prophetess Winifred Haizel, the ministry serves as a sacred 
+                            altar of prayer where individuals experience healing, deliverance, and 
+                            deep spiritual renewal.
+                        </p>
+                        <div class="row g-2 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Follow Jesus Christ
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Spirit-Filled
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Online Services
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-2"></i>Everyone Is Welcome
+                            </div>
                         </div>
-                        <div class="col-sm-3 col-6">
-                            <a href="https://arisewellnessmed.hint.com/login/request" target="_blank">
-                                <div class="bg-light text-center rounded-circle py-4">
-                                    <i class="fa fa-3x fa-calendar-check text-primary mb-3"></i>
-                                    <h6 class="mb-0">Instant<small class="d-block text-primary">Appointments</small></h6>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-3 col-6">
-                            <a href="#">
-                                <div class="bg-light text-center rounded-circle py-4">
-                                    <i class="fa fa-3x fa-microscope text-primary mb-3"></i>
-                                    <h6 class="mb-0">Accurate<small class="d-block text-primary">Testing</small></h6>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col-sm-3 col-6">
-                            <a href="#">
-                                <div class="bg-light text-center rounded-circle py-4">
-                                    <i class="fa fa-3x fa-money-bill text-primary mb-3"></i>
-                                    <h6 class="mb-0">Clear<small class="d-block text-primary">Pricing</small></h6>
-                                </div>
-                            </a>
-                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5" href="about.html">Read More</a>
                     </div>
                 </div>
             </div>
@@ -181,318 +192,175 @@
     </div>
     <!-- About End -->
 
-    <!-- About Dr. Wilmot-Desouza Start -->
-    <div class="container-fluid py-5 bg-light" id="doctor">
-        <div class="container">
-            <div class="row gx-5">
-                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded" src="img/dr-1.jpg" loading="lazy"
-                            alt="Dr. Nana Wilmot-DeSouza" style="object-fit: contain;">
-                    </div>
-                </div>
-                <div class="col-lg-7">
-                    <div class="mb-4">
-                        <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">About Dr. Wilmot-Desouza</h5>
-                        <h1 class="display-4">Meet Dr. Nana Wilmot-DeSouza</h1>
-                    </div>
-                    <p class="lead">
-                        Meet Dr. Nana Wilmot-DeSouza, a board-certified physician specializing in Family and Lifestyle medicine. 
-                        Her passion lies in empowering patients to achieve their best lives. 
-                        With a commitment to accessible healthcare, she advocates for the direct primary model. 
-                        Beyond her healing role, Dr. Wilmot-DeSouza sees herself as a teacher and support, 
-                        considering each patient holistically—mind, body, and soul.
-                    </p>
-                    <p class="lead">
-                        Having completed her residency at the University of Arkansas Health Sciences, Dr. Wilmot-DeSouza brings a 
-                        wealth of personal and professional experiences to her practice. Her unique perspective allows her to 
-                        connect with patients beyond their ailments.
-                    </p>
-                    <p class="lead">
-                        Outside the medical realm, she cherishes family time, delights in cooking, explores new places, contributes 
-                        to her local church, and participates in medical mission trips. Driven by a commitment to global service, 
-                        she is actively involved in a non-profit organization benefiting people worldwide.
-                    </p>
-                    <p class="lead">
-                        Dr. Nana Wilmot-DeSouza is Triple Board Certified - Family Medicine, Lifestyle Medicine and Obesity Medicine.
-                    </p>
-                    <p class="lead">
-                        Experience healthcare with a personal touch—where empowerment, compassion, and holistic care converge under 
-                        Dr. Nana Wilmot-DeSouza's expert guidance.
-                    </p>
-                    <div class="align-items-center text-center d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" 
-                        href="https://www.facebook.com/share/15xzXnxiMy/?mibextid=wwXIfr" target="_blank">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle" 
-                        href="https://www.instagram.com/drnanawdesouza/" target="_blank">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About Dr. Wilmot-Desouza End -->
-    
-    <!-- Modules Start -->
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Modules</h5>
-                <p class="mb-3 lead">
-                    At Arise, we offer two distinct modules to cater to your unique health needs. 
-                </p>
-            </div>
-            <div class="row gx-5">
-                <div class="col-lg-6 card border-secondary bg-light">
-                    <div class="bg-light text-center rounded p-5">
-                        <h1 class="mb-4">Direct Primary Care</h1>
-                        <!-- <img src="img/logo/logo.png" loading="lazy" alt="Direct Primary Care(DPC)" height="300px" width="100%"
-                          class="rounded mb-4"> -->
-                        <p class="lead">
-                            <span class="text-primary">Direct Primary Care (DPC)</span>  
-                            converts the script on healthcare, offering personalized service, 
-                            substantial cost savings, and a focus on your well-being - all for 
-                            a transparent monthly fee.
-                        </p>
-                        <a href="direct-primary-care.html" class="btn btn-primary rounded-pill py-3 px-5">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-lg-6 card border-secondary bg-light">
-                    <div class="bg-light text-center rounded p-5">
-                        <h1 class="mb-4">Traditional Health Insurance</h1>
-                        <!-- <img src="img/logo/AFM_logo.webp" loading="lazy" alt="Traditional Health Insurance" class="img-fluid rounded mb-4"> -->
-                        <p class="lead">
-                            <span class="text-primary">Arise Family Medical</span>  integrates renowned primary care, 
-                            holistic wellness, and affordability into your traditional 
-                            health insurance plan for an optimal health journey.
-                        </p>
-                        <br>
-                        <a href="health-insurance.html" class="btn btn-primary rounded-pill py-3 px-5">Learn More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modules End -->
 
-    <!-- Services Start -->
-    <!-- <div class="container-fluid py-5 bg-light">
-        <div class="container text-center">
-            <div class="text-center mx-auto mb-5" style="max-width: 500px;">
-                <h5 class="d-inline-block text-primary text-uppercase border-bottom border-5">Our Services</h5>
-                <h1 class="display-4">Our Excellent Medical Services</h1>
-                <p class="mb-3 lead">
-                    Unlock a healthier lifestyle with our dedicated focus on lifestyle medicine. Experience 
-                    personalized primary care services designed to empower you in managing chronic conditions 
-                    such as hypertension, diabetes, hypothyroidism, and more.
-                </p>
-            </div>
-            <div class="row g-5 mb-3">
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-weight text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Medical Weight Management</h4>
-                        <p class="m-0 lead">
-                            "Elevate your well-being with personalized nutrition counseling by a licensed dietitian. 
-                            Tailored....
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="services/medical-weight-mgt.html">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
+    <!-- Activities Start -->
+    <div class="container-xxl bg-light my-6 py-6 pt-0">
+        <div class="container">
+            <div class="bg-primary text-light rounded-bottom p-5 my-6 mt-0 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4 text-light mb-0">Have A Prayer Request? Talk To Us</h1>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-x-ray text-white"></i>
+                    <div class="col-lg-6 text-lg-end">
+                        <div class="d-inline-flex align-items-center text-start">
+                            <i class="fa fa-phone-alt fa-4x flex-shrink-0"></i>
+                            <div class="ms-4">
+                                <p class="fs-5 fw-bold mb-0">Call Us</p>
+                                <p class="fs-1 fw-bold mb-0">+1 240-703-0383</p>
+                            </div>
                         </div>
-                        <h4 class="mb-3">Lifestyle Medicine</h4>
-                        <p class="m-0 lead">
-                            Arise Medical and Wellness is dedicated to promoting a healthier lifestyle through 
-                            evidence-based lifestyle medicine.....
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="services/lifestyle-medicine.html">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-luggage-cart text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Immigration Medical Exam</h4>
-                        <p class="m-0 lead">
-                            "Navigate the immigration process confidently with our Immigration Medical Exam services. 
-                            We ensure a smooth....
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="services/immigration-exam.html">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-deaf text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Medical Ear Piercing</h4>
-                        <p class="m-0 lead">
-                            "Discover Confidence: Safe & Stylish Medical Ear Piercing! Our experts prioritize your safety for a precise, 
-                            hygienic experience.....
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="services/medical-ear-piercing.html">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-user-md text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Preventive Care</h4>
-                        <p class="m-0 lead">
-                            "Stay healthy with our check-ups and screenings. From annual check-ups to special visits for men and women, 
-                            including....
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="services/preventive-care.html">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon mb-4">
-                            <i class="fa fa-2x fa-hospital text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Chronic Disease Care</h4>
-                        <p class="m-0 lead">
-                            "Empower Your Health: Specializing in managing a range of ailments from diabetes to heart conditions, 
-                            including.....
-                        </p>
-                        <a class="btn btn-lg btn-primary rounded-pill" href="services/chronic-disease-care.html">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
                     </div>
                 </div>
             </div>
-            <a class="btn btn-outline-dark rounded-pill py-3 px-5 mb-3" href="service.html">
-                More Services
-            </a>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">Our Weekly Activities</p>
+                <h1 class="display-6 mb-4">
+                    Winnie Haizel Ministry International maintains a vibrant schedule of spiritual and community-focused activities
+                    throughout the week.
+                </h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill px-3 mb-3">6pm EST</div>
+                            <h3 class="mb-3">Tuesdays</h3>
+                            <span>
+                                Testimonial Service
+                            </span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/sunday-service.jpg" alt="">
+                            <div class="product-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="product-item d-flex flex-column bg-white rounded overflow-hidden h-100">
+                        <div class="text-center p-4">
+                            <div class="d-inline-block border border-primary rounded-pill pt-1 px-3 mb-3">6pm-8pm</div>
+                            <h3 class="mb-3">Wednesdays</h3>
+                            <span>
+                                45 mins. with the Bible
+                            </span>
+                        </div>
+                        <div class="position-relative mt-auto">
+                            <img class="img-fluid" src="img/midweek-service.jpg" alt="">
+                            <div class="product-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4 text-center">
+                    <a class="btn btn-primary rounded-pill py-3 px-5" href="activities.html">View More</a>
+                </div>
+                <div class="col-4"></div>
+            </div>
         </div>
-    </div> -->
-    <!-- Services End -->
-     
-    <!-- Appointment Start -->
-    <div class="container-fluid bg-primary py-5">
-        <div class="container py-5">
-            <div class="row gx-5">
-                <div class="col-lg-6 mb-5 mb-lg-0">
-                    <div class="mb-4">
-                        <h5 class="d-inline-block text-white text-uppercase border-bottom border-5">Inquiries</h5>
-                        <h1 class="display-4">Take The First Step Toward Better Health</h1>
+    </div>
+    <!-- Activities End -->
+
+    <!-- WoG Start -->
+    <div class="container-xxl py-6">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="text-primary text-uppercase mb-2">Meet Our Founder & Senior Pastor</p>
+                    <h1 class="display-6 mb-4">Prophetess Winifred Haizel</h1>
+                    <p>
+                        Prophetess Winifred Haizel is a passionate intercessor, revivalist, and dynamic prophetic voice 
+                        with a strong healing anointing and apostolic authority. Known for her deep commitment to prayer 
+                        and the Word of God, she has devoted her life to spiritual restoration, soul-winning, and advancing 
+                        God's Kingdom globally.
+                    </p>
+                    <p class="mb-5">
+                        She is the author of two powerful books:
+                    </p>
+                    <div class="row gy-5 gx-4 mb-5">
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-atlas text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Let Love Lead</h5>
+                            </div>
+                            <span>
+                                A guide to emotional healing and walking in forgiveness.
+                            </span>
+                        </div>
+                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                    <i class="fa fa-bible text-white"></i>
+                                </div>
+                                <h5 class="mb-0">Miracles in Our Midst</h5>
+                            </div>
+                            <span>
+                                A collection of testimonies revealing God's supernatural power through prayer.
+                            </span>
+                        </div>
                     </div>
-                    <p class="text-white mb-5">
-                        Let's start your journey to better health today! Reach out to schedule a consultation or 
-                        learn more about how Lifestyle Medicine can benefit you. 
+                    <p>
+                        Beyond ministry, Prophetess Haizel is the CEO of Haizels Events and Catering Services, a thriving business 
+                        that reflects her passion for excellence. She is also the founder of the Rescue the Perishing Foundation 
+                        and the visionary behind the Christ for the Hoods evangelistic campaign—initiatives designed to bring hope 
+                        and revival to underserved communities.
+                    </p>
+                    <p>
+                        Above all, she is a devoted mother of two, gracefully balancing family, ministry, and business while 
+                        continuing to impact lives across the globe through prayer, healing, and spiritual transformation.
                     </p>
                 </div>
-                <div class="col-lg-6">
-                    <div class="bg-light text-center rounded p-5">
-                        <h1 class="mb-4">Get Started</h1>
-                        <form method="post">
-                            <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text"
-                                        class="form-control py-3 border-primary bg-transparent text-white"
-                                        placeholder="Name" name="name" required>
-                                </div>
-                                <div class="col-xl-6">
-                                    <input type="email"
-                                        class="form-control py-3 border-primary bg-transparent text-white"
-                                        placeholder="Email" name="email" required>
-                                </div>
-                                <div class="col-xl-6">
-                                    <input type="phone" class="form-control py-3 border-primary bg-transparent"
-                                        placeholder="Phone" name="phone" required>
-                                </div>
-                                <div class="col-12 mb-3">
-                                    <textarea class="form-control border-primary bg-transparent text-white" name="message"
-                                        id="area-text" cols="30" rows="5" placeholder="Write Message"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid rounded" src="img/wog-new.png" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid rounded" src="img/wog-2.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Appointment End -->
+    <!-- WoG End -->
+
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light py-5">
+    <div class="container-fluid bg-dark text-light footer my-6 mb-0 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">Take The First Step Toward Better Health</h4>
-                    <p class="mb-4">
-                        If you're ready to embrace a healthier lifestyle, I'm here to guide you every step of the way. 
-                        Together, we can create a personalized plan to help you achieve your health goals and transform your life. 
-                    </p>
-                    <div class="d-flex">
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.facebook.com/Arisewellnessmed" target="_blank">
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-light mb-4">Contact Details</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>6401 New Hampshire Avenue, Hyattsville, MD</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+1 240-703-0383</p>
+                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@winniehaizelministries.org</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" 
+                            href="https://www.facebook.com/share/1Ab8wjDgZU/?mibextid=wwXIfr" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://www.instagram.com/arisewellnessmed/" target="_blank">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" 
+                            href="https://www.instagram.com/winnie_haizel_ministries?igsh=dmNxODdsajcyeGUy" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="btn btn-lg btn-primary btn-lg-square rounded-circle me-2" href="https://youtube.com/@arisewellnessmed?si=LcaxQCoWNeEd6DZU" target="_blank">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-1" 
+                            href="https://www.youtube.com/@winniehaizelministry4403" target="_blank">
                             <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-0" 
+                            href="https://www.tiktok.com/@winniehaizelminis?_t=ZT-8wCdFa5FB9v&_r=1" target="_blank">
+                            <i class="fab fa-tiktok"></i>
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">Quick Info</h4>
-                    <div class="d-flex flex-column justify-content-start">
-                        <p class="mb-2"><i class="fa fa-map-marker-alt text-primary me-3"></i>7447 Egan Drive, Suite 207, <br> &ensp; &ensp;&ensp;Savage, MN 55378</p>
-                        <p class="mb-2"><i class="fa fa-envelope text-primary me-3"></i>info@arisewellnessmed.com</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt text-primary me-3"></i>952-522-6344</p>
-                        <p class="mb-2"><i class="fab fa-whatsapp text-primary me-3"></i>952-855-2800(hablamos español)</p>
-                        <p class="mb-2"><i class="fa fa-calendar-week text-primary me-3"></i>Monday - Friday</p>
-                        <p class="mb-2"><i class="fa fa-hourglass text-primary me-3"></i>9:00am - 5:00pm</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="d-inline-block text-primary text-uppercase border-bottom border-5 mb-4">Popular Links</h4>
-                    <div class="d-flex flex-column justify-content-start">
-                        <a class="text-light mb-2" href="direct-primary-care.html"><i class="fa fa-angle-right me-2"></i>Direct Primary Care</a>
-                        <a class="text-light mb-2" href="health-insurance.html"><i class="fa fa-angle-right me-2"></i>Health Insurance</a>
-                        <a class="text-light mb-2" href="index.html#doctor"><i class="fa fa-angle-right me-2"></i>Dr. Wilmot-Desouza</a>
-                        <a class="text-light mb-2" href="blog.html"><i class="fa fa-angle-right me-2"></i>Blog</a>
-                        <a class="text-light mb-2" href="reviews.html"><i class="fa fa-angle-right me-2"></i>Reviews</a>
-                        <a class="text-light mb-2" href="privacy-policy.html"><i class="fa fa-angle-right me-2"></i>Privacy Policy</a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <img src="img/logo/ABFMBadge_B.png" loading="lazy" alt="Dr. Nana">
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container-fluid bg-dark text-light border-top  py-4">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-md-6 text-center text-md-start">
-                    <p class="mb-md-0">&copy; <a class="text-primary" href="#">Arise Medical & Wellness</a>. All Rights Reserved.</p>
+                <div class="col-lg-6 col-md-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="about.html">About Us</a>
+                    <a class="btn btn-link" href="contact.html">Contact Us</a>
+                    <a class="btn btn-link" href="activities.html">Our Activities</a>
+                    <a class="btn btn-link" href="give.html">Give</a>
                 </div>
             </div>
         </div>
@@ -500,19 +368,34 @@
     <!-- Footer End -->
 
 
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright text-light py-4 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a href="#">Winnie Haizel Ministries International Inc.</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    By <a href="yohananconsult.github.io">Yohanan Consult</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright End -->
+
+
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
