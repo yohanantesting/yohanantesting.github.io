@@ -158,8 +158,9 @@
 
 /*** Hero ***/
 .hero-header {
-    background: url(../img/hero.jpg) top right no-repeat;
+    background: url(../img/home/home-bg.jpg) top right no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 
 .btn-play {
@@ -252,7 +253,7 @@
 }
 
 .page-header {
-    background: url(../img/hero.jpg) center right no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/pattern.png) center center no-repeat;
     background-size: cover;
 }
 
