@@ -279,8 +279,8 @@ h6,
 
 .cocoa-bean-header {
     background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/headers/cocoa.jpg) center center no-repeat;
-    background-size: initial;
-    height: 80vh;
+    background-size: cover;
+    /* height: 80vh; */
 }
 
 /* End Of Headers */
